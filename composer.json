@@ -1,0 +1,50 @@
+{
+    "name": "sachinkiranti/aakash-sms",
+    "description": "Aakash Sms Provider Api Wrapper",
+    "keywords": [
+        "laravel",
+        "sms",
+        "aakashsms",
+        "nepal"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sachinkiranti/aakash-sms/issues",
+        "source": "https://github.com/sachinkiranti/aakash-sms"
+    },
+    "autoload": {
+        "psr-4": {
+            "SachinKiranti\\AakashSms\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sachin Rai",
+            "email": "sachinkiranti@gmail.com",
+            "homepage": "https://raisachin.com.np",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": "^7.3|^8.0|^8.1",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
+        "guzzlehttp/guzzle": ">=6.5.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SachinKiranti\\AakashSms\\AakashSmsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
