@@ -1,5 +1,10 @@
 # Laravel AakashSms
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sachinkiranti/aakash-sms.svg?style=flat-square)](https://packagist.org/packages/sachinkiranti/aakash-sms)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/sachinkiranti/aakash-sms/run-tests?label=tests)](https://github.com/sachinkiranti/aakash-sms/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/sachinkiranti/aakash-sms/Check%20&%20fix%20styling?label=code%20style)](https://github.com/sachinkiranti/aakash-sms/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/sachinkiranti/aakash-sms.svg?style=flat-square)](https://packagist.org/packages/sachinkiranti/aakash-sms)
+
 The `sachinkiranti/aakash-sms` package provides easy access to the api of *Nepali Sms Service Provider* called **AakashSms**.
 
 ## Installation
@@ -60,7 +65,8 @@ Sending Sms :
 ### TODO
 - [ ] Test
 - [ ] More flexible Api
-
+- [ ] Credit check Api
+- 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
